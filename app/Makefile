@@ -21,6 +21,8 @@ black:
 	isort .
 	black .
 
+jupyter:
+	poetry run jupyter lab
 
 # DOCKER / CONTAINER REGISTRY COMMANDS
 CONTAINER_NAME=template
